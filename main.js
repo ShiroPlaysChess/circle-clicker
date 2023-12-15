@@ -1,6 +1,8 @@
 const canvas = document.getElementById('aimCanvas');
     const ctx = canvas.getContext('2d');
     
+    //lines 6 to 19 are about just generating random circles.
+    
     const circles = [];
     const circleCount = 10;
     const circleRadius = 20;
@@ -16,6 +18,8 @@ const canvas = document.getElementById('aimCanvas');
       circles.push(circle);
     }
     
+    // The code to move the circles around lines 23 to 45
+
     function draw() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       
